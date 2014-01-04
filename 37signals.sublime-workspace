@@ -1,0 +1,225 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"background",
+				"background-origin"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"header",
+				"headernavbar"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"na",
+				"navigation"
+			],
+			[
+				"bor",
+				"border-collapse"
+			],
+			[
+				"backgro",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/johnmarks/Desktop/Thinkful/GoogleClone/main.css",
+		"/Users/johnmarks/Desktop/Thinkful/GoogleClone/index.html",
+		"/Users/johnmarks/Desktop/Thinkful/37Signals/main.css",
+		"/Users/johnmarks/Desktop/Thinkful/37Signals/index.html",
+		"/Users/johnmarks/Src/WebDev/GoogleClone/main.css",
+		"/Users/johnmarks/Src/WebDev/GoogleClone/index.html",
+		"/Users/johnmarks/Src/WebDev/Positioning/VerticalExpanding.css",
+		"/Users/johnmarks/Src/WebDev/Positioning/VerticalExpanding.html",
+		"/Users/johnmarks/Src/WebDev/Positioning/positionproperty.html",
+		"/Users/johnmarks/Src/WebDev/Positioning/positionproperty.css",
+		"/Users/johnmarks/Src/WebDev/Resume.html",
+		"/Users/johnmarks/Src/WebDev/Positioning/stylesheet.css",
+		"/Users/johnmarks/Src/WebDev/stylesheet.css",
+		"/Users/johnmarks/Src/WebDev/stylesheettwo.css",
+		"/Users/johnmarks/Src/WebDev/ResumeTwo.html",
+		"/Users/johnmarks/Src/WebDev/stylesheet2.css",
+		"/Users/johnmarks/Src/WebDev/Resume2.html",
+		"/Users/johnmarks/Desktop/Thinkful/Front End Class /HelloWorld.html",
+		"/Users/johnmarks/Desktop/Thinkful/FrontEndClass /doctype.html",
+		"/Users/johnmarks/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/johnmarks/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/johnmarks/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/johnmarks/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/johnmarks/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"index_files",
+			"headernavbar",
+			"block",
+			"Library",
+			"color"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------------------------------*/
+
+body {
+	font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-align: center;
+	padding: 30px;
+	margin:8px;
+}
+
+/* Header panel - contains the navigation bar */
+header {
+	font-size: inherit;
+	margin-top: -40px;	
+	margin-bottom: 20px;
+}
+
+nav {
+	padding:20px 50px 0 50px;
+}
+
+	nav ul {
+		text-align: right;
+		margin: 0;
+		padding: 0;
+	}
+
+		nav ul li {
+			display:inline;
+			padding:0 10px 0;
+			font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+			font-size:12px;
+		}
+
+		nav ul li.date {
+			float: left;
+			padding-top: 4px;
+			color: #999;
+		}
+
+		nav a {
+			text-decoration: none;
+			color:#369;
+			text-align: center;
+			margin:;
+		}
+
+		nav a:hover {
+			color:#6699cc;
+		}
+
+		nav .signin a {
+			color:#18afe0;
+		}
+
+/* The viewport contains the rest of the page content. There is no footer
+   in this page. */
+
+#viewport {
+	margin: 0 auto;
+	width: 820px;
+}
+
+	h1, h2, h3, h4, h5 {
+		font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+	}
+
+	h1 {
+		font-weight: 500;
+		font-style: normal;
+		font-size: 58px;
+		line-height: 1.0em;
+		margin-bottom: 20px;
+		letter-spacing: -2px;
+		color: #232323;
+	}
+
+	h5 {
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	/* Center all viewport content */
+	center {
+		padding-left: 15px;
+	}
+
+	center h1 {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		margin-left: -20px;
+	}
+
+		/* General descriptions for all cards (Basecamp, Highrise, Campfire) */
+		#cards {
+			display:block;
+			overflow: hidden;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+		}
+
+			/* Card specific descriptions */
+			#cards h3 {
+				font-size: 21px;
+				color:#369;
+				font-family: inherit;
+				font-weight: bold;
+			}
+
+			#cards h3 span {
+				text-decoration: underline;
+			}
+
+			#cards h3 sup {
+				font-weight: normal;
+				font-size: 11px;
+				color: #999;
+				vertical-align: super;
+			}
+
+			#cards h4 {
+				margin: 5px 0 10px;
+				font-size: 14px;
+				font-family: inherit;
+				color: #cc0000;
+			}
+
+			#cards a {
+				float:left;
+				width: 160px;
+				border: 1px solid #e8e8e8;
+				border-radius: 5px;
+				padding:20px 10px 10px 10px;
+				margin:15px 20px 5px;
+				background: linear-gradient(to bottom, #fff, #efefef);
+				text-decoration: none;
+			}
+
+			#cards a.basecard {
+				margin-left: 80px;
+			}
+
+			#cards a p {
+				color: #222;
+				font-size: 14px;
+				line-height: 1.4em;
+				margin: 5px 0 10px;
+				font-family: inherit;
+			}
+
+		/* There is no footer on this page, just a final set of stars */
+		#stars {
+			clear:both;
+			background: url('stars.png') no-repeat 50% 50%;
+			color: transparent;
+			border: 0;
+		}
