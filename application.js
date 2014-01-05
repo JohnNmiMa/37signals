@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$( ".basecard, .highcard, .campcard").hover(function() {
 		$( "center h1.first" ).toggle();
-		$( "center h5.first" ).toggle();
+		$( "center h5.first " ).toggle();
 	});
 	$( ".basecard").hover(function() {
 		$( "center h1.bc" ).toggle();
