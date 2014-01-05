@@ -62,7 +62,7 @@ header {
 }
 
 nav {
-	padding:20px 50px 0 50px;
+	padding:20px 10px 0 10px;
 }
 
 	nav ul {
@@ -250,7 +250,7 @@ nav {
 
 			#cards img.bc, #cards img.hr, #cards img.cc {
 				position:absolute;
-				margin-top: -25px;
+				top:210px;
 				display: none;
 			}
 			#cards img.bc {
