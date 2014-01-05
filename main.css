@@ -128,7 +128,13 @@ nav {
 
 	/* Center all viewport content */
 	center {
+		position: relative;
 		padding-left: 15px;
+	}
+
+	.headlines {
+		width:100%;
+		height:165px;
 	}
 
 	center h1 {
@@ -137,9 +143,51 @@ nav {
 		margin-left: -20px;
 	}
 
+	center h1.bc {
+		font-size: 44px;
+		display:none;
+	}
+	center h1.bc span {
+		color:#369;
+		text-decoration: underline;
+	}
+
+	center h1.hr {
+		font-size: 44px;
+		display:none;
+	}
+	center h1.hr span {
+		color:#369;
+		text-decoration: underline;
+	}
+
+	center h1.cc {
+		font-size: 44px;
+		display:none;
+	}
+	center h1.cc span {
+		color:#369;
+		text-decoration: underline;
+	}
+
+	center h5.bc {
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+		font-size: 14px;
+		display:none;
+	}
+	center h5.hr {
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+		font-size: 14px;
+		display:none;
+	}
+	center h5.cc {
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+		font-size: 14px;
+		display:none;
+	}
+
 		/* General descriptions for all cards (Basecamp, Highrise, Campfire) */
 		#cards {
-			display:block;
 			overflow: hidden;
 			margin-top: 10px;
 			margin-bottom: 20px;
@@ -193,6 +241,26 @@ nav {
 				line-height: 1.4em;
 				margin: 5px 0 10px;
 				font-family: inherit;
+			}
+
+			#cards.hr {
+				float: left;
+				margin-left: 300px;
+			}			
+
+			#cards img.bc, #cards img.hr, #cards img.cc {
+				position:absolute;
+				margin-top: -25px;
+				display: none;
+			}
+			#cards img.bc {
+				left: 236px;
+			}
+			#cards img.hr {
+				left: 460px;
+			}
+			#cards img.cc {
+				left: 530px;
 			}
 
 		/* There is no footer on this page, just a final set of stars */

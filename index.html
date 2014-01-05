@@ -2,6 +2,8 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<link type="text/css" rel="stylesheet" href="main.css">
 		<title>John's 37signals</title>
+		<script type="text/javascript" src="jquery-2.0.3.js"></script>
+		<script type="text/javascript" src="application.js"></script>
 	</head>
 	<body>
 		<header>
@@ -19,27 +21,40 @@
 		<div id="viewport">
 			<center>
 				<img src="logo-37s-large.png">
-				<h1>Making collabortion productive and enjoyable for people every day.</h1>
-				<h5>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
+				<div class="headlines">
+					<h1 class="first">Making collabortion productive and enjoyable for people every day.</h1>
+					<h1 class="bc"><span>Basecamp</span> is the project management tool you wish you had on your last project.</h1>
+					<h1 class="hr"><span>Highrise</span> remembers the important things about people you'd normally forget.</h1>
+					<h1 class="cc">From near or far, <span>Campfire</span> helps teams work together over the web in real-time.</h1>
+
+					<h5 class="first">Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
+					<h5 class="bc">Are you still managing projects with email? Are you still using Excel for your to-do lists? It's time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.</h5>
+					<h5 class="hr">Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</h5>
+					<h5 class="cc">Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time provate chat room. It's game changing. We couldn't run our own business without Campfire.</h5>
+				</div>
+
 				<div id="cards">
-					<a class="basecard" href="file:///Users/johnmarks/Desktop/Thinkful/37Signals/basecamp.com/?source=37signals+home">
+					<a class="basecard" href="http://basecamp.com/?source=37signals+home">
 						<img src="logo-bc.png">
 						<h3><span>Basecamp</span><sup>®</sup></h3>
 						<h4>Manage Projects</h4>
 						<p>Used by millions for project management.</p>
 					</a>
-					<a class="highcard" href="file:///Users/johnmarks/Desktop/Thinkful/37Signals/highrisehq.com/?source=37signals+home">
+					<img src="arrow-left.png" class="bc">
+					<a class="highcard" href="http://highrisehq.com/?source=37signals+home">
 						<img src="logo-hr.png">
 						<h3><span>Highrise</span><sup>®</sup></h3>
 						<h4>Manage Contacts</h4>
 						<p>Know the people you do business with.</p>				
 					</a>						
-					<a class="campcard" href="file:///Users/johnmarks/Desktop/Thinkful/37Signals/campfirenow.com/?source=37signals+home">
+					<img src="arrow-left.png" class="hr">
+					<a class="campcard" href="http://campfirenow.com/?source=37signals+home">
 						<img src="logo-cf.png">
 						<h3><span>Campfire</span><sup>™</sup></h3>
 						<h4>Work in Real-Time</h4>
 						<p>Group chat rooms for your business.</p>				
 					</a>					
+					<img src="arrow-right.png" class="cc">
 				</div>
 				<p id="stars">STARS</p>
 			</center>
